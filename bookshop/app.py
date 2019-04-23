@@ -16,7 +16,7 @@ def hello():
                 response += f" {book}: {review.text} <BR>"
             else:
                 print(f'Cannot get review for {name}, result {review.status_code}')
-                response += f" {book} <BR>"
+                response += f" {book}: No rewiew available<BR>"
         except:
             print(f'Cannot contact review service')
             response += f" {book} <BR>"
