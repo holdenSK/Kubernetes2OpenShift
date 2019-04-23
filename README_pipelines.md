@@ -47,7 +47,7 @@ application and switching master route. To do it, please eddit line 20 in the ya
 file to contain URL of your fork.
 
 ``` bash
-oc process -f openshift/bookshop.pipeline.yaml | oc apply -f -
+oc process -f openshift/bookshop-pipeline.yaml | oc apply -f -
 ```
 
 You can see whats happening in the cluster by invoking:
